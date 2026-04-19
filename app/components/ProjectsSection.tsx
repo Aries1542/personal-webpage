@@ -43,10 +43,11 @@ export default function ProjectsSection() {
         <h2 className="mb-12 text-center text-4xl font-bold text-zinc-900 dark:text-white">
           Projects
         </h2>
-        <ProjectGroup title="Utah Tech" projects={utahTechProjects} />
+        <ProjectGroup title="Utah Tech" projects={utahTechProjects} outlineColor="#ef4444" />
         <ProjectGroup
           title="Buzz Financial"
           projects={buzzFinancialProjects}
+          outlineColor="#eab308"
         />
       </div>
     </section>

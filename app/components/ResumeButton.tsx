@@ -2,7 +2,7 @@ export default function ResumeButton() {
   return (
     <a
       href="#"
-      className="inline-flex items-center gap-2 rounded-lg bg-accent px-6 py-3 font-semibold text-black transition-colors hover:bg-emerald-400"
+      className="inline-flex items-center gap-2 rounded-lg border-2 border-accent bg-transparent px-6 py-3 font-semibold text-accent transition-colors hover:bg-accent hover:text-black dark:text-accent dark:hover:bg-accent dark:hover:text-black"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
